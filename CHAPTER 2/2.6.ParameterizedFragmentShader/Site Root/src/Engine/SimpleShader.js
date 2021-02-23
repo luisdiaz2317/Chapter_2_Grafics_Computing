@@ -26,7 +26,7 @@ function SimpleShader(vertexShaderID, fragmentShaderID) {// instance variables (
     // Step E: Activates the vertex buffer loaded in Engine.Core_VertexBuffer
     gl.bindBuffer(gl.ARRAY_BUFFER, gEngine.VertexBuffer.getGLVertexRef());
     /// Step F: Describe the characteristic of the vertex position attribute
-    gl.vertexAttribPointer(this.mShaderVertexPositionAttribute,
+    gl.vertexAttribPointer(this.mShaderVertexPositionAttribute, 
     3, // each element is a 3-float (x,y.z)
     gl.FLOAT, // data type is FLOAT
     false, // if the content is normalized vectors
