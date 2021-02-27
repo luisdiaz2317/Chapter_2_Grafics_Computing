@@ -1,4 +1,4 @@
-# Chapter_2_Grafics_Computing
+# Grafics_Computation
 
 #Members:
 
